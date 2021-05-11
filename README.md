@@ -28,3 +28,18 @@ make altinstall
 
 sudo pip3.9 install --upgrade pip
 ```
+---
+
+Python File: age
+```
+#!/usr/local/bin/python3.9
+
+name = input("What is your name")
+print(f"{name} is hype")
+```
+
+```
+vim bin/age
+chmod u+x bin/age
+age
+```
